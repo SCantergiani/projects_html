@@ -4,63 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-        main {
-            max-width: 600px;
-            margin: 2em auto;
-            padding: 1em;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 0.5em;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-    </style>
+    <!-- Add any additional head elements if needed -->
 </head>
 <body>
-
-<header>
     <h1>Projects</h1>
-</header>
+    <!-- Add your project content here if needed -->
 
-<main>
-    <ul>
-        <!-- Replace "presentations/" with the correct path if needed -->
-        <?php
-        $directory = "presentation";
-        $files = scandir($directory);
-        foreach ($files as $file) {
-            if ($file != "." && $file != "..") {
-                echo "<li><a href=\"$directory/$file\">$file</a></li>";
-            }
-        }
-        ?>
-    </ul>
-</main>
+    <!-- No footer in this example -->
 
+    <!-- Add any additional scripts or closing body/html tags if needed -->
 </body>
 </html>
